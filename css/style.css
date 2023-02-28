@@ -1,0 +1,1022 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    scroll-behavior: smooth;
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+  
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/******************************************
+/* HEADER AND NAV
+/*******************************************/
+header {
+    background-color: rgb(9, 47, 52);
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.branding{
+    width: 35rem;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    height: 70px;
+    width: 2.5rem;
+    padding-top: 2rem;
+}
+
+.bar{
+    display: block;
+    width: 2.5rem;
+    height: .3rem;
+    margin: .5rem 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+
+/******************************************
+/* cafe pic
+/*******************************************/
+section.cafepic{
+    height: 60rem;
+    background-image: url(cafebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+/******************************************
+/* MAIN SECTION ONE
+/*******************************************/
+section.one{
+    height: 50rem;
+}
+
+section.pie{
+    height: 50rem;
+    width: 35%;
+    float: left;
+    background-image: url(coffeebeans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.discover{
+    margin-right: 5%;
+    width: 55%;
+    float: left;
+}
+
+section.discover span{
+    color: orange;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 6rem 0 3rem 5%;
+    display: block;
+}
+
+section.discover p{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+section.discover a{
+    background-color: orange;
+    font-size: 2.5rem;
+    color: white;
+    float: left;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 5px 5px 5px rgb(59, 59, 59);
+    margin-left: 5%;
+}
+
+/******************************************
+/* MAIN SECTION TWO
+/*******************************************/
+section.two{
+    height: 80rem;
+    clear: both;
+    background-color: rgb(9, 47, 52);
+    background-size: cover;
+}
+
+section.two span{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+section.two h2{
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+    font-weight: 400;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+
+section.two ul{
+    text-align: center;
+}
+
+section.two li > a{
+    color: white;
+    font-size: 2rem;
+    border-bottom: .2rem solid white;
+    padding: 0 0 1rem 0;
+    float: left;
+    width: 15%;
+}
+
+section.two li > a:hover{
+    color: orange;
+    border-bottom: .2rem solid orange;
+    transition: 0.7s ease;
+}
+
+li.first a{
+    margin-left: 20%;
+}
+
+li.last a{
+    margin-right: 20%;
+}
+
+section.two li{
+    display: inline;
+    margin: 0;
+}
+
+section.two section{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 4%;
+}
+
+div{
+    display: inline-block;
+    width: 35rem;
+    height: 40rem;
+}
+
+div.divone{
+    background-image: url(acai.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.divtwo{
+    background-image: url(avo\ toast.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.divthree{
+    background-image: url(eggs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.divfour{
+    background-image: url(soup.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.two div *{
+    display: none
+}
+
+section.two div:hover span{
+    display: inline-block;
+    font-size: 2rem;
+    background-color: rgb(255, 254, 254);
+}
+
+section.two div:hover :first-child{
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 5rem;
+
+}
+
+section.two div:hover a{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+/******************************************
+/* founders
+/*******************************************/
+section.founders{
+    height: 60rem;
+}
+
+section.crew{
+    margin-left: 5%;
+    width: 35%;
+    float: left;
+}
+
+section.crew span{
+    color: orange;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 9rem 0 3rem 5%;
+    display: block;
+}
+
+section.crew p{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+section.crew a{
+    background-color: orange;
+    font-size: 2.5rem;
+    color: white;
+    float: left;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 5px 5px 5px rgb(59, 59, 59);
+    margin-left: 5%;
+}
+
+section.team{
+    height: 60rem;
+    width: 55%;
+    float: right;
+    background-image: url(team.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+/******************************************
+/* MAIN SECTION THREE
+/*******************************************/
+
+section.three{
+    height: 110rem;
+    background-color: rgb(9, 47, 52);
+}
+
+section.three h2{
+    text-align: center;
+    font-size: 6rem;
+    color: orange;
+    font-weight: 400;
+    padding-top: 10rem;
+}
+
+section.three img{
+    width: 4%;
+    margin: 0 48%;
+}
+
+section.three span{
+    display: block;
+}
+
+
+section.left, section.right{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+span.date{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2rem;
+    font-weight: 400;
+    color: white;
+}
+
+span.time{
+    padding-top: 2%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+iframe{
+    padding-top: 4%;
+    width: 50%;
+    height: 50rem;
+    margin: 0 25%;   
+}
+
+section.contact{
+    padding-top: 5rem;
+    height: 25rem;
+    background-color: rgb(9, 47, 52);
+}
+
+span.contactus{
+    color: orange;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+span.number{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+
+section.contact img{
+    margin: auto;
+    width: 5rem;
+}
+
+section.contact div {
+    height: auto;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section.contact a.facebook{
+    margin-right: 1.5rem;
+}
+
+section.contact a.twitter{
+    margin-right: 1.5rem;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media screen and (max-width: 1096px) {
+    nav{
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1018px) {
+    section.one{
+        height: 65rem;
+    }
+
+    section.pie {
+        height: 65rem;
+    }
+
+    section.two{
+        height: 120rem;
+    }
+
+    section.two h2{
+        margin-bottom: 3rem;
+    }
+    section.two section{
+        width: 50%;
+    }
+
+    section.three{
+        height: 110rem;
+    }
+
+
+}
+
+@media screen and (max-width: 846px){
+    section.founders{
+        height: 85rem;
+    }
+
+    section.team{
+        height: 85rem;
+    }
+}
+
+@media screen and (max-width: 822px){
+    section.one{
+        height: 70rem;
+    }
+    section.pie {
+        height: 70rem;
+    }
+    section.founders{
+        height: 85rem;
+    }
+    section.team{
+        height: 85rem;
+}
+
+}
+
+@media(max-width: 815px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    .branding{
+        width: 25rem;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 750px){
+    
+    header section span{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: .5rem;
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 717px){
+    header {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
+
+    section.one{
+        height: 40rem;
+    }
+
+    section.pie, section.oatmeal{
+        display: none;
+        width: 0;
+    }
+
+    section.discover{
+        position: static;
+        width: 80%;
+        padding: 4rem 0 0 5rem;
+    }
+    section.one{
+        height: 80rem;
+    }
+    
+    section.two{
+        height: 192rem;
+    }
+
+    section.two section{
+        width: 100%;
+    }
+
+    section.three{
+        height: 110rem;
+    }
+
+    section.founders{
+        height: 60rem;
+    }
+
+    section.crew{
+        width: 80%;
+    }
+
+    section.team{
+        display: none;
+        width: 0;
+    }
+
+    section.two li > a{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        border-bottom: .2rem solid white;
+        padding: 0 0 1rem 0;
+        float: left;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section.left{
+        width: 100%;
+        margin: 3rem 0;
+    }
+
+    section.right{
+        width: 100%;
+    }
+
+    iframe{
+        height: 40rem;
+    }
+
+    section.founders{
+        height: 70rem;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+    section.one{
+        height: 110rem;
+    }
+
+    section.contact{
+        height: 40rem;
+    }
+
+}
+
+@media screen and (max-width: 448px){
+    section.one{
+        height: 100rem;
+    }
+
+    section.contact{
+        height: 40rem;
+    }
+
+
+}
